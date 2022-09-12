@@ -7,44 +7,44 @@ import logoAnimaginary from '@/images/logos/animaginary.svg'
 import logoCosmos from '@/images/logos/cosmos.svg'
 import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoHeart from '@/images/logos/gwc.png'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'Girls Who Code TXST',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+      "I've created the entire structure of our Girls Who Code chapter, including our website! It utilizes Stripe's API to accept donations that fund our events and activities.",
+    link: { href: 'http://gwc-txst.com', label: 'gwc-txst.com' },
+    logo: logoHeart,
   },
   {
-    name: 'Animaginary',
+    name: 'Java vs. C++',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
+      'Creating an add-free website that highlights the syntax differences between Java and C++ to benefit the curriculum of my Object Oriented Programming class.',
+    link: { href: '', label: 'link coming soon!' },
     logo: logoAnimaginary,
   },
-  {
-    name: 'HelioStream',
-    description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
-  },
-  {
-    name: 'cosmOS',
-    description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
-  },
-  {
-    name: 'OpenShuttle',
-    description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
-  },
+  // {
+  //   name: 'HelioStream',
+  //   description:
+  //     'Real-time video streaming library, optimized for interstellar transmission.',
+  //   link: { href: '#', label: 'github.com' },
+  //   logo: logoHelioStream,
+  // },
+  // {
+  //   name: 'cosmOS',
+  //   description:
+  //     'The operating system that powers our Planetaria space shuttles.',
+  //   link: { href: '#', label: 'github.com' },
+  //   logo: logoCosmos,
+  // },
+  // {
+  //   name: 'OpenShuttle',
+  //   description:
+  //     'The schematics for the first rocket I designed that successfully made it to orbit.',
+  //   link: { href: '#', label: 'github.com' },
+  //   logo: logoOpenShuttle,
+  // },
 ]
 
 function LinkIcon(props) {
@@ -62,15 +62,15 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Spencer Sharp</title>
+        <title>Projects - Victoria Jordan</title>
         <meta
           name="description"
           content="Things I’ve made trying to put my dent in the universe."
         />
       </Head>
       <SimpleLayout
-        title="Things I’ve made trying to put my dent in the universe."
-        intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+        title="A couple of my favorite personal projects."
+        intro="This summer, I learned about the trifecta that is React, Next.js, and TailwindCSS. I haven't looked back since!"
       >
         <ul
           role="list"

@@ -11,6 +11,15 @@ const nextConfig = {
     newNextLinkBehavior: true,
     scrollRestoration: true,
   },
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/home',
+        permanent: true,
+      },
+    ]
+  },
 }
 
 const withMDX = nextMDX({
