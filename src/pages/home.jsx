@@ -148,7 +148,7 @@ function Resume() {
     },
     {
       company: 'FYPM App',
-      title: 'Frontend Eningeer Intern',
+      title: 'Frontend Engineer Intern',
       logo: logoFYPM,
       start: 'April 2022',
       end: 'July 2022',
