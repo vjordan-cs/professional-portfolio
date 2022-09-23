@@ -20,7 +20,7 @@ const projects = [
   {
     name: 'Java vs. C++',
     description:
-      'Creating an add-free website that highlights the syntax differences between Java and C++ to benefit the curriculum of my Object Oriented Programming class.',
+      'Creating an ad-free website that highlights the syntax differences between Java and C++ to benefit the curriculum of my Object Oriented Programming class.',
     link: { href: '', label: 'link coming soon!' },
     logo: logoAnimaginary,
   },
