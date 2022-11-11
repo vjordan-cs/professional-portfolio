@@ -51,7 +51,7 @@ export default function Speaking() {
             <Appearance
               href=""
               title="(Re)visiting First Generation Students Experiences in STEM Panelist"
-              description="Discussion on the significance of attending a Hispanic Serving Intitution, how our interests for STEM came to fruition, our cultural histories and backgrounds, and how all these relate to our experiences in the classroom."
+              description="A discussion on attending a Hispanic Serving Intitution, the significance of our cultural backgrounds, and how it relates to our experiences in the classroom."
               event="TSU Professional Development Series"
               cta="November 10th, 2022"
             />
