@@ -266,16 +266,6 @@ export default function Home({ articles }) {
             creating inclusive spaces for beginners in computer science.
           </p>
           <div className="mt-6 flex gap-6">
-            {/* <SocialLink
-              href="https://twitter.com"
-              aria-label="Follow on Twitter"
-              icon={TwitterIcon}
-            />
-            <SocialLink
-              href="https://instagram.com"
-              aria-label="Follow on Instagram"
-              icon={InstagramIcon}
-            /> */}
             <SocialLink
               href="https://github.com/vjordan-cs"
               aria-label="Follow on GitHub"
@@ -285,6 +275,17 @@ export default function Home({ articles }) {
               href="https://linkedin.com/in/victoria-jordan01/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
+            />
+
+            <SocialLink
+              href="https://www.instagram.com/vjordan.cs/"
+              aria-label="Follow on Instagram"
+              icon={InstagramIcon}
+            />
+            <SocialLink
+              href="https://twitter.com/cs__victoria"
+              aria-label="Follow on Twitter"
+              icon={TwitterIcon}
             />
           </div>
         </div>
