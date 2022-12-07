@@ -32,12 +32,12 @@ export default function Speaking() {
         <title>Speaking - Victoria Jordan</title>
         <meta
           name="description"
-          content="In November, I'll be guest speaker for the Texas State Common Experience Systems Thinking series."
+          content="If you are looking for your next guest speaker, I'm your girl!"
         />
       </Head>
       <SimpleLayout
-        title="My biggest guest speaker event is right around the corner."
-        intro="This month, I'll be a guest speaker for the Texas State Common Experience 'Systems Thinking' series."
+        title="This year, I broke out of my shell and found my love of public speaking"
+        intro="If you are looking for your next guest speaker, I'm your girl! I am passionate about women in STEM, living life for the adventure, and navigating college as a non-traditional student."
       >
         <div className="space-y-20">
           <SpeakingSection title="Texas State University">
@@ -46,7 +46,7 @@ export default function Speaking() {
               title="Life as a First-Gen and Non-Traditional Student"
               description="My journey navigating young adulthood, finding the way back to academia, and discovering a passion for leadership along the way."
               event="TSU Common Experience"
-              cta="Coming Soon on November 15th"
+              cta="November 15th, 2022"
             />
             <Appearance
               href=""

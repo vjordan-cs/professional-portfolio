@@ -21,7 +21,10 @@ const projects = [
     name: 'Java vs. C++',
     description:
       'Creating an ad-free website that highlights the syntax differences between Java and C++ to benefit the curriculum of my Object Oriented Programming class.',
-    link: { href: '', label: 'link coming soon!' },
+    link: {
+      href: 'https://cpp-vs-java.vercel.app/',
+      label: 'cpp-vs-java.vercel.app',
+    },
     logo: logoAnimaginary,
   },
   // {
