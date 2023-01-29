@@ -19,8 +19,8 @@ import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
 import logoDell from '@/images/logos/dell.svg'
 import logoFYPM from '@/images/logos/fypm1.svg'
-import logoGWC from '@/images/logos/gwc.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
+import logoGWC from '@/images/logos/gwcLogo1.png'
+import logoTXST from '@/images/logos/txstStar.png'
 
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
@@ -139,6 +139,13 @@ function Newsletter() {
 
 function Resume() {
   let resume = [
+    {
+      company: 'Texas State VR Lab',
+      title: 'Virtual Reality Researcher',
+      logo: logoTXST,
+      start: 'Jan 2023',
+      end: 'Present',
+    },
     {
       company: 'Girls Who Code TXST',
       title: 'Founder & President',
