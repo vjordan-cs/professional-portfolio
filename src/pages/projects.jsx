@@ -11,6 +11,26 @@ import logoHeart from '@/images/logos/gwc.png'
 
 const projects = [
   {
+    name: 'YOUphoria: A comprehensive sex education app for teens',
+    description:
+      "YOUphoria is built with Flutter and Firebase Authentication for seamless user experience and secure data handling. Google Maps API provides location-based resources, and ChatGPT API is leveraged to create an inclusive, age-appropriate AI chatbot, addressing teens' nuanced questions with personalized responses.",
+    link: {
+      href: 'https://github.com/halcyonCore/youphoria',
+      label: 'GitHub',
+    },
+    logo: youphoria,
+  },
+  {
+    name: 'Tailwind Animation Exploration',
+    description:
+      'Leveraging Tailwind CSS, this captivating one-page project showcases mesmerizing animations and innovative blend modes for striking color and movement',
+    link: {
+      href: 'https://tailwind-animation-exploration.vercel.app/',
+      label: 'tailwind-animation-exploration.vercel.app/',
+    },
+    logo: orb,
+  },
+  {
     name: 'Girls Who Code TXST',
     description:
       "I've created the entire structure of our Girls Who Code chapter, including our website! It utilizes Stripe's API to accept donations that fund our events and activities.",
@@ -26,26 +46,6 @@ const projects = [
       label: 'cpp-vs-java.vercel.app',
     },
     logo: logoAnimaginary,
-  },
-  {
-    name: 'Tailwind Animation Exploration',
-    description:
-      'Leveraging Tailwind CSS, this captivating one-page project showcases mesmerizing animations and innovative blend modes for striking color and movement',
-    link: {
-      href: 'https://tailwind-animation-exploration.vercel.app/',
-      label: 'tailwind-animation-exploration.vercel.app/',
-    },
-    logo: orb,
-  },
-  {
-    name: 'YOUphoria: A comprehensive sex education app for teens',
-    description:
-      "YOUphoria is built with Flutter and Firebase Authentication for seamless user experience and secure data handling. Google Maps API provides location-based resources, and ChatGPT API is leveraged to create an inclusive, age-appropriate AI chatbot, addressing teens' nuanced questions with personalized responses.",
-    link: {
-      href: 'https://github.com/halcyonCore/youphoria',
-      label: 'GitHub',
-    },
-    logo: youphoria,
   },
   // {
   //   name: 'OpenShuttle',
