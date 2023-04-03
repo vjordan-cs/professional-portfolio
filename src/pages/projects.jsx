@@ -5,7 +5,7 @@ import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import logoAnimaginary from '@/images/logos/animaginary.svg'
 import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
+import orb from '@/images/logos/orb.gif'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoHeart from '@/images/logos/gwc.png'
 
@@ -27,13 +27,16 @@ const projects = [
     },
     logo: logoAnimaginary,
   },
-  // {
-  //   name: 'HelioStream',
-  //   description:
-  //     'Real-time video streaming library, optimized for interstellar transmission.',
-  //   link: { href: '#', label: 'github.com' },
-  //   logo: logoHelioStream,
-  // },
+  {
+    name: 'Tailwind Animation Exploration',
+    description:
+      'Leveraging Tailwind CSS, this captivating one-page project showcases mesmerizing animations and innovative blend modes for striking color and movement',
+    link: {
+      href: 'https://tailwind-animation-exploration.vercel.app/',
+      label: 'tailwind-animation-exploration.vercel.app/',
+    },
+    logo: orb,
+  },
   // {
   //   name: 'cosmOS',
   //   description:
@@ -85,7 +88,7 @@ export default function Projects() {
                 <Image
                   src={project.logo}
                   alt=""
-                  className="h-8 w-8"
+                  className="h-8 w-8 rounded-full"
                   unoptimized
                 />
               </div>
