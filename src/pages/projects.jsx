@@ -4,7 +4,7 @@ import Head from 'next/head'
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
+import youphoria from '@/images/logos/YOUphoria.png'
 import orb from '@/images/logos/orb.gif'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoHeart from '@/images/logos/gwc.png'
@@ -37,13 +37,16 @@ const projects = [
     },
     logo: orb,
   },
-  // {
-  //   name: 'cosmOS',
-  //   description:
-  //     'The operating system that powers our Planetaria space shuttles.',
-  //   link: { href: '#', label: 'github.com' },
-  //   logo: logoCosmos,
-  // },
+  {
+    name: 'YOUphoria: A comprehensive sex education app for teens',
+    description:
+      "YOUphoria is built with Flutter and Firebase Authentication for seamless user experience and secure data handling. Google Maps API provides location-based resources, and ChatGPT API is leveraged to create an inclusive, age-appropriate AI chatbot, addressing teens' nuanced questions with personalized responses.",
+    link: {
+      href: 'https://github.com/halcyonCore/youphoria',
+      label: 'GitHub',
+    },
+    logo: youphoria,
+  },
   // {
   //   name: 'OpenShuttle',
   //   description:
