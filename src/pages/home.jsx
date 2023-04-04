@@ -21,6 +21,8 @@ import logoDell from '@/images/logos/dell.svg'
 import logoFYPM from '@/images/logos/fypm1.svg'
 import logoGWC from '@/images/logos/gwcLogo1.png'
 import logoTXST from '@/images/logos/txstStar.png'
+import halcyoncore from '@/images/logos/hc-logo.png'
+import amazonIcon from '@/images/logos/amazonlogo.png'
 
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
@@ -140,6 +142,20 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
+      company: 'Amazon',
+      title: 'Software Engineering Intern',
+      logo: amazonIcon,
+      start: 'May 2023',
+      end: 'Aug 2023',
+    },
+    {
+      company: 'HalcyonCore',
+      title: 'Co-Founder & Lead Engineer',
+      logo: halcyoncore,
+      start: 'March 2023',
+      end: 'Present',
+    },
+    {
       company: 'Texas State VR Lab',
       title: 'Virtual Reality Researcher',
       logo: logoTXST,
@@ -151,11 +167,11 @@ function Resume() {
       title: 'Founder & President',
       logo: logoGWC,
       start: 'Feb 2022',
-      end: 'July 2022',
+      end: 'Present',
     },
     {
       company: 'FYPM App',
-      title: 'Frontend Engineer Intern',
+      title: 'Front End Engineer Intern',
       logo: logoFYPM,
       start: 'April 2022',
       end: 'July 2022',
@@ -169,7 +185,7 @@ function Resume() {
     },
     {
       company: 'Dell Technologies',
-      title: 'IT Analyst Intern',
+      title: 'Software Engineer Intern',
       logo: logoDell,
       start: 'May 2021',
       end: 'Aug 2021',
@@ -186,7 +202,12 @@ function Resume() {
         {resume.map((role, roleIndex) => (
           <li key={roleIndex} className="flex gap-4">
             <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-              <Image src={role.logo} alt="" className="h-7 w-7" unoptimized />
+              <Image
+                src={role.logo}
+                alt=""
+                className="h-7 w-7 rounded-full"
+                unoptimized
+              />
             </div>
             <dl className="flex flex-auto flex-wrap gap-x-2">
               <dt className="sr-only">Company</dt>
@@ -284,16 +305,16 @@ export default function Home({ articles }) {
               icon={LinkedInIcon}
             />
 
-            <SocialLink
+            {/* <SocialLink
               href="https://www.instagram.com/vjordan.cs/"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
-            />
-            <SocialLink
+            /> */}
+            {/* <SocialLink
               href="https://twitter.com/cs__victoria"
               aria-label="Follow on Twitter"
               icon={TwitterIcon}
-            />
+            /> */}
           </div>
         </div>
       </Container>

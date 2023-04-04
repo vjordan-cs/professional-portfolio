@@ -36,7 +36,7 @@ export default function Speaking() {
         />
       </Head>
       <SimpleLayout
-        title="I love sharing the joy I find in STEM+C"
+        title="I love to share the joy of STEM+C"
         intro="If you are looking for your next guest speaker, I'm your girl! I am passionate about women in STEM+C, living life for the adventure, and navigating college as a non-traditional student."
       >
         <div className="space-y-20">
